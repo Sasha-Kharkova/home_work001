@@ -1,0 +1,142 @@
+body {
+     margin: 0;
+    padding: 0;
+    background-image: url(background.jpg);
+    background-size: 100%;
+}
+header{
+    height: 50px;
+}
+#wrapper {
+    width: 1200px;
+   
+}
+#flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    padding: 50px 75px;
+    margin-left: 22%;
+    margin-right: 19%;
+    margin-top: 12%;
+ }
+#first_step {
+      background: rgba( 14, 14, 14, 0.5); 
+}
+p.float {
+    padding: 5px 15px;
+     
+}
+h1 {
+    font-family: Tahoma, sans-serif;
+    font-size: 24px;
+    color: whitesmoke;
+    font-style: normal;
+    font-weight: 400;
+    border-bottom: 2px;
+    border-bottom-color: whitesmoke;
+}
+img {
+    padding-top: 6px;
+}
+input[type="image"] {
+    margin-top: 29px;
+   
+}
+input[type="text"] {
+    padding: 5px 0 5px 15px; 
+    width: 260px;
+    height: 22px;
+    font-size: 14px;
+    background-color: black;
+    color: whitesmoke;
+    border: 0px;
+    
+}
+input[type="text"]:hover {
+    background-color: #1b5288;
+    color: white;
+    -webkit-box-shadow: 0 0 10px #66ccff;
+    
+}
+input[type="password"] {
+    padding: 5px 0 5px 15px; 
+    width: 260px;
+    height: 22px;
+    font-size: 14px;
+    background-color: black;
+    color: whitesmoke;
+    border: 0px;
+}
+input[type="password"]:hover {
+    background-color: #1b5288;
+    color: white;
+     -webkit-box-shadow: 0 0 10px #66ccff;
+}
+input[type="button"]{
+   background: -moz-linear-gradient(#3399cc, #33ccff);
+    padding: 6px 10px;
+     -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: none;
+    font-family: Tahoma, sans-serif;
+    font-size: 14px;
+    color: whitesmoke;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+input[type="submit"] {
+    
+}
+
+
+/*меню на всю ширину*/
+.top-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    min-width: 1200px;
+    height: 35px;
+    background: #085393;
+    text-decoration: none;
+    
+}
+
+.top-menu li {
+    display: inline-block;
+    font-family: Tahoma, sans-serif;
+   float: right;
+    font-size: 15px; 
+    
+    color: #6699cc;
+   
+}
+.top-menu a {
+    display: block;
+    text-decoration-line:none;
+    padding: 8px 14px;
+     color: #6699cc; 
+}
+a {
+    text-decoration: none;
+}
+p {
+    font-family: Tahoma, sans-serif;
+    font-size: 13px;
+    color: whitesmoke;
+}
+
+
+.top-menu  a:hover {
+    display: block;
+    background-color: #6699cc;
+    color: white;
+    text-decoration: underline;
+}
+    
+

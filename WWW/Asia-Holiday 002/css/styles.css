@@ -1,0 +1,67 @@
+body {
+    background-image: url(backgraund.jpg);
+    background-size: 100%;
+}
+input [type="text"]{
+   
+    border: 1px solid #e7e7e7;
+    padding: 0 10px;
+    vertical-align: top;
+}
+#wrapper {
+    max-width: 1260px;
+    margin: auto;
+}
+header {
+    max-width: 1000px;
+    margin-left: 50px;
+    max-height: 300px;
+    
+}
+.logo {
+    margin: 100px 30px 50px 30px;
+    width: 300px;
+    float: left;
+   
+}
+
+p {
+    color: azure;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+   
+}
+.contact {
+    color: azure;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px; 
+    float: right;
+    margin-bottom: 50px;
+    margin-top: 200px;
+}
+.clearfix {
+    height: 10px;
+    clear: both;
+}
+.thumb img {
+    border: 2px;
+    padding: 7px;
+    background: #666;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+figure figcaption {
+    font-size: 14px;
+    color: azure;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 5px;
+}
+figure  {
+    display: block;
+    border: 2px;
+    float: left;
+    margin-top: 25px;
+}
+footer {
+    
+}
